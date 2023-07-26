@@ -1,0 +1,63 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 150px;
+}
+h1 {
+  font-weight: normal;
+  color: gray;
+  margin: 0;
+  font-size: 100%;
+}
+h2 {
+  margin: 0;
+}
+
+.intro {
+  position: relative;
+  width: 100%;
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.intro p {
+  font-size: 300%;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 50px;
+  z-index: 1;
+}
+.projects button {
+  font-size: 200%;
+  border: none;
+  background: none;
+  width: 200px;
+}
+.projects h2 {
+  margin: 0;
+  font-size: 350%;
+}
+
+.project-title-box {
+  background-color: yellow;
+  width: 300px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.project-title-box a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+a h2 {
+  text-align: right;
+}

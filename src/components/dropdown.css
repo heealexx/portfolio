@@ -1,0 +1,12 @@
+.dropdown {
+  padding-top: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.dropdown h1 {
+  font-size: 500%;
+  color: black;
+}
