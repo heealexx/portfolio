@@ -10,11 +10,13 @@ import work from "./images/work.jpg";
 import { elsewhere } from "./components/elsewhere.js";
 import linkedin from "./images/linkedin.png";
 import github from "./images/github.png";
+import spotify from "./images/spotify.png";
 
 const projectImages = [restaurant, weather, work];
 const elsewhereInfo = [
   {link: "https://github.com/heealexx", image: github },
-  {link: "https://www.linkedin.com/in/alexhe29/", image: linkedin}
+  {link: "https://www.linkedin.com/in/alexhe29/", image: linkedin},
+  {link: "https://open.spotify.com/user/1295359353?si=f92960bd17fb442e", image: spotify}
 ];
 const projectNames = document.querySelectorAll(".projects h2");
 const rightBackground = document.querySelector(".right-background");
